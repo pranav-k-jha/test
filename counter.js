@@ -14,5 +14,5 @@ function counterJs(n) {
 
   // Call setTimeout after the loop
 }
-
+//log the output for n = 10
 console.log(counterJs(10));
