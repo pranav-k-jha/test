@@ -7,7 +7,7 @@ function counterJs(n) {
       counter =  i;
     }, i * 3000);
   }
-
+// loop start
   for (let i = 0; i < n; i++) {
     logAfterTimeout(i);
   }
