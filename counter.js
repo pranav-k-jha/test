@@ -5,7 +5,7 @@ function counterJs(n) {
     setTimeout(function timeout() {
       console.log(i);
       counter =  i;
-    }, i * 1000);
+    }, i * 3000);
   }
 
   for (let i = 0; i < n; i++) {
