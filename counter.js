@@ -16,3 +16,12 @@ function counterJs(n) {
 }
 //log the output for n = 10
 console.log(counterJs(10));
+
+//counter with setInterval
+
+let counter = 0;
+setInterval(function(){
+    counter++;
+    console.log(counter)
+}, 1000);
+
